@@ -1,0 +1,40 @@
+﻿@using WebappTest.Controllers
+@model StillingModelCreate
+
+
+<form method="post">
+    <input asp-for="Ansatt" hidden />
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-bg-danger-primart">Legg til ny Stilling</h2>
+            <hr />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Stilling_navn"></label>
+            <input asp-for="Stilling_navn" class="form-control" />
+            <span asp-validation-for="Stilling_navn" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Ansatt_id"></label>
+            <select asp-for="Ansatt_id" class="form-select" aria-label="Default select example">
+                @foreach (var item in Model.Ansatt){
+                    <option value=@item.Id>@item.Navn</option>
+                }
+            </select>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Stilling_start">Start periode</label>
+            <input asp-for="Stilling_start" class="form-control" type="date" />
+            <span asp-validation-for="Stilling_start" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Stilling_slutt">Slutt periode</label>
+            <input asp-for="Stilling_slutt" class="form-control" type="date" />
+            <span asp-validation-for="Stilling_slutt" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Legg til</button>
+        <a asp-controller="Stilling" asp-action="Index" class="btn btn-sec">Tilbake</a>
+    </div>
+</form>
+
+

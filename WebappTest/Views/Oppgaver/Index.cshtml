@@ -1,0 +1,67 @@
+﻿@using WebappTest.Controllers
+@model IEnumerable<OppgaverModel>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Liste av oppgaver:</h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Oppgaver" asp-action="create" class="btn btn-primary">
+                Legg til ny oppgave
+            </a>
+        </div>
+    </div>
+    <br />
+
+    <table class=" = table table-bordered table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th>
+                    Oppgave navn
+                </th>
+                <th>
+                    Ansatt navn
+                </th>
+                <th>
+                    Dato
+                </th>
+                <th>
+                    Oppgave Id
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var obj in Model)
+            {
+                <tr>
+                    <td width="25%">
+                        @obj.Oppgave_navn
+                    </td>
+                    <td width="25%">
+                        @obj.Ansatt_navn
+                    </td>
+                    <td width="25%">
+                        @obj.Oppgave_dato.ToShortDateString()
+                    </td>
+                    <td width="25%">
+                        @obj.Oppgave_id
+                    </td>
+                    <td>
+                        <div class="w-75 btn-group" role="group">
+                            <a asp-controller="Stilling" asp-action="Edit" asp-route-id="@obj.Oppgave_id">Endre </a>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="w-75 btn-group" role="group">
+                            <a asp-controller="Stilling" asp-action="Delete" asp-route-id="@obj.Oppgave_id">Slett </a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

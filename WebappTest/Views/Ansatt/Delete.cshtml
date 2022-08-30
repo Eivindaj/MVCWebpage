@@ -1,0 +1,25 @@
+﻿@model Ansatt
+
+<form method="post" asp-action="DeletePOST">
+    <input asp-for="Id" hidden/>
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-bg-danger-primart">Slett Ansatt</h2>
+            <hr />
+        </div>
+        <div class="mb-3">
+            
+            <label asp-for="Navn"></label>
+            <input asp-for="Navn" class="form-control" disabled />
+        </div>
+        <button type="submit" class="btn btn-danger">Slett</button>
+        <a asp-controller="Ansatt" asp-action="Index" class="btn btn-sec">Tilbake</a>
+    </div>
+</form>
+
+<!--validate on client side -->
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

@@ -1,0 +1,36 @@
+﻿@using WebappTest.Controllers
+@model OppgaverModelCreate
+
+
+<form method="post">
+    <input asp-for="Stilling" hidden />
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-bg-danger-primart">Legg til ny Oppgave</h2>
+            <hr />
+        </div>
+        <div class="mb-3">
+            <label asp-for="Navn"></label>
+            <input asp-for="Navn" class="form-control" />
+            <span asp-validation-for="Navn" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Selecterd_Stilling"></label>
+            <select asp-for="Selecterd_Stilling" class="form-select">
+                @foreach (var item in Model.Stilling)
+                {
+                    <option value=@item.Id>@item.Navn @item.Periode_Start.ToShortDateString() - @item.Periode_Slutt.ToShortDateString()</option>
+                }
+            </select>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Dato"></label>
+            <input asp-for="Dato" class="form-control" type="date" />
+            <span asp-validation-for="Dato" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Legg til</button>
+        <a asp-controller="Oppgaver" asp-action="Index" class="btn btn-sec">Tilbake</a>
+    </div>
+</form>
+
+

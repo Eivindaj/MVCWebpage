@@ -1,0 +1,39 @@
+﻿@model Stilling
+
+<form method="post" asp-action="DeletePOST">
+    <input asp-for="Id" hidden/>
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-bg-danger-primart">Slett Stilling</h2>
+            <hr />
+            <div class="mb-3">
+                <label asp-for="Navn"></label>
+                <input asp-for="Navn" class="form-control" disabled />
+                <span asp-validation-for="Navn" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Ansatt_id"></label>
+                <input asp-for="Ansatt_id" class="form-control" disabled />
+                <span asp-validation-for="Ansatt_id" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Periode_Start"></label>
+                <input asp-for="Periode_Start" class="form-control" type="date" disabled />
+                <span asp-validation-for="Periode_Start" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Periode_Slutt"></label>
+                <input asp-for="Periode_Slutt" class="form-control" type="date" disabled />
+                <span asp-validation-for="Periode_Slutt" class="text-danger"></span>
+            </div>
+        <button type="submit" class="btn btn-danger">Slett</button>
+        <a asp-controller="Ansatt" asp-action="Index" class="btn btn-sec">Tilbake</a>
+    </div>
+</form>
+
+<!--validate on client side -->
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

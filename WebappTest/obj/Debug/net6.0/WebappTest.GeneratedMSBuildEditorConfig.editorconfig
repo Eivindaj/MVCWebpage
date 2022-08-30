@@ -1,0 +1,96 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebappTest
+build_property.RootNamespace = WebappTest
+build_property.ProjectDir = C:\Users\Divind\source\repos\Test\WebappTest\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Divind\source\repos\Test\WebappTest
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Divind/source/repos/Test/WebappTest/Views/Ansatt/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5zYXR0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Divind/source/repos/Test/WebappTest/Views/Ansatt/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5zYXR0XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Divind/source/repos/Test/WebappTest/Views/Ansatt/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5zYXR0XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Divind/source/repos/Test/WebappTest/Views/Ansatt/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5zYXR0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Divind/source/repos/Test/WebappTest/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Divind/source/repos/Test/WebappTest/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Divind/source/repos/Test/WebappTest/Views/Oppgaver/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BwZ2F2ZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Divind/source/repos/Test/WebappTest/Views/Oppgaver/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BwZ2F2ZXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Divind/source/repos/Test/WebappTest/Views/Oppgaver/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BwZ2F2ZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Divind/source/repos/Test/WebappTest/Views/Oppgaver/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BwZ2F2ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Divind/source/repos/Test/WebappTest/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Divind/source/repos/Test/WebappTest/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Divind/source/repos/Test/WebappTest/Views/Stilling/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RpbGxpbmdcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Divind/source/repos/Test/WebappTest/Views/Stilling/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RpbGxpbmdcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Divind/source/repos/Test/WebappTest/Views/Stilling/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RpbGxpbmdcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Divind/source/repos/Test/WebappTest/Views/Stilling/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RpbGxpbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Divind/source/repos/Test/WebappTest/Views/Stilling/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RpbGxpbmdcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Divind/source/repos/Test/WebappTest/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Divind/source/repos/Test/WebappTest/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Divind/source/repos/Test/WebappTest/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ym1r01iaza
